@@ -11,6 +11,12 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var secondTabLabel: UILabel!
     
+    @IBAction func pressMeButton(_ sender: UIButton)
+    
+    {
+        //When pressed change the view background to green
+        self.view.backgroundColor = UIColor.green
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
